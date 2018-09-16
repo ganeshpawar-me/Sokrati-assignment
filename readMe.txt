@@ -5,14 +5,10 @@
 	Step 1 : First we get the file contents using javascript file api  ( Line no 74)
 	Step 2 : Then we call render function for rendering the necessary HTML needed. ( Line no 92) 
 	Step 3 : After loading the HTML we add "click" event listener on both Hex and Ascii codes (Line no 120 and Line no 147)
-	Step 4 : I have added both Hex code and Ascii code for a given character as class so when we click a Hex code 
-			 and add highlight  class to it. it gets added to its corresponding Ascii as well. So we can avoid one extra step
-			 to convert Hex to Ascii and vice and versa for highlighting.
-	Step 5 : For selecting a range for Ascii we increament a loop from its "from" to its "to" and add highlight class to it. Since 
-			 every Ascii code has its corresponding  Hex code as class to it. It gets highlight as well.
+	Step 4 : I have added both Hex code and Ascii code for a given character as class so when we click a Hex code and add highlight class to it. it gets added to its corresponding Ascii as well. So we can avoid one extra step to convert Hex to Ascii and vice and versa for highlighting.
+	Step 5 : For selecting a range for Ascii we increament a loop from its "from" to its "to" and add highlight class to it. Since every Ascii code has its corresponding  Hex code as class to it. It gets highlight as well.
 	Step 6 : For selecting a range for Hex we do the same.
-	Step 7 : Both the range codes has a limit of 1000 to prevent browser from crashing. Consedering UX guidlines. So atleast 1000 values 
-			 will be shown and page will not be unresponsive. 		   
+	Step 7 : Both the range codes has a limit of 1000 to prevent browser from crashing. Consedering UX guidlines. So atleast 1000 values will be shown and page will not be unresponsive. 		   
 	
 
 	You can Cross check Hex and Ascii values on following links: 
