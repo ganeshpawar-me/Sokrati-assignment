@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title></title>
+ 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+ </head>
+ <body>
+
+ 	<div class="header" id="temp">
+ 		<span> Hex Viewer</span>
+ 	</div>
+
+	<div class="input-form">
+		<span>Select file from below</span>
+ 		<input type="file" id="file" name="">
+	</div>
+
+	<div class="range-select-container">
+
+		<div class="hex-range">
+			<span>Select range for Hex codes:</span>
+			<span>From </span><input type="text" class="hex-from" name="">
+			<span>To </span><input type="text" class="hex-to" name="">
+			<input type="button" class="hex-submit" name="" value="Submit">     
+		</div>
+
+		<div class="ascii-range">
+			<span>Select range for Ascii codes:</span>
+			<span>From </span><input type="text" class="ascii-from" name="">
+			<span>To </span><input type="text" class="ascii-to" name="">
+			<input type="button" class="ascii-submit" name="" value="Submit">
+		</div> 
+
+	</div>
+
+ 	<div class="hex-block-container">
+ 		<span>Hex codes will appear below</span>
+ 	</div>
+
+ 	<div class="ascii-block-container">
+ 		<span>Ascii codes will appear below</span> 		
+ 	</div>
+ 
+ 	<script type="text/javascript" src="assets/js/index.js"></script>
+ </body>
+ </html>
