@@ -1,5 +1,11 @@
  	Above project is available at https://portfolio-37b00.firebaseapp.com/
 
+ 	********************************************* 
+
+ 	If you upload a file larger than 1kb you might have to wait for a second to let the html render then you can do further actions like clicking and selecting ranges.
+
+ 	*********************************************
+
 	Logic explanation:
 
 	1. 
